@@ -52,6 +52,60 @@ $("#poafBtn").on("click", function () {
         }
     }
 })
+$("#clear").on("click", function () {
+    $("#soafOutput").text("");
+    $("#poafOutput").text("");
+    $("#in1").val("");
+    $("#in2").val("");
+    $("#in4").val("");
+    $("#in3").val("");
+    $("#in5").val("");
+    $("#soafInput").val("");
+})
+$(document).ready(function () {
+    $("#in1").keydown(function (event) {
+        if (event.which === 13) {
+            $("#poafBtn").click();
+            $("#soafBtn").click();
+        }
+    }
+    )
+    $("#in2").keydown(function (event) {
+        if (event.which === 13) {
+            $("#poafBtn").click();
+            $("#soafBtn").click();
+        }
+    }
+    )
+    $("#in3").keydown(function (event) {
+        if (event.which === 13) {
+            $("#poafBtn").click();
+            $("#soafBtn").click();
+        }
+    }
+    )
+    $("#in4").keydown(function (event) {
+        if (event.which === 13) {
+            $("#poafBtn").click();
+            $("#soafBtn").click();
+        }
+    }
+    )
+    $("#in5").keydown(function (event) {
+        if (event.which === 13) {
+            $("#poafBtn").click();
+            $("#soafBtn").click();
+        }
+    }
+    )
+    $("#soafInput").keydown(function (event) {
+        if (event.which === 13) {
+            $("#poafBtn").click();
+            $("#soafBtn").click();
+        }
+    }
+    )
+});
 function isNumberKey(evt) {
     var charCode = (evt.which) ? evt.which : event.keyCode
     if (charCode > 31 && (charCode < 48 || charCode > 57))
