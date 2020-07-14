@@ -8,16 +8,17 @@
     background-color: blue;
     width: 100%;
 }
-
-.red {
-    background-color: red;
-    width: 100%;
+.maxWidth{
+    max-width: 60%;
 }
 
+.red {
+    color:red;
+    font-weight:bold;
+}
 .green {
-    background-color: green;
-    width: 100%;
-    color: white;
+    color: green;
+    font-weight: bold; 
 }
 
 .purple {
@@ -31,4 +32,19 @@
 
 .outputPad {
     padding-top: 2.8em;
+}
+
+.inputPad{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.kBorder{
+    border: 2px solid green;
+}
+.valBorder{
+    border: 2px solid blue
+}
+
+.input2Pad{
+    padding-top:1em;
 }
