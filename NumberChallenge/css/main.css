@@ -55,7 +55,10 @@
     border: 2px solid green;
 }
 .valBorder{
-    border: 2px solid blue
+    border: 2px solid blue;
+}
+.buttonRound {
+    border-radius: 8px;
 }
 
 .input2Pad{
