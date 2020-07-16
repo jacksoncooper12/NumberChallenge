@@ -70,6 +70,7 @@
     <Content Include="Code.html" />
     <Content Include="css\main.css" />
     <Content Include="css\prism.css" />
+    <Content Include="images\mathFavicon.png" />
     <Content Include="images\output-onlinehextools.jpg" />
     <Content Include="Index.html" />
     <Content Include="scripts\main.js" />
