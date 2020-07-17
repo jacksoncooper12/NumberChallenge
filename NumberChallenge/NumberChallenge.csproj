@@ -73,8 +73,6 @@
     <Content Include="images\mathFavicon.png" />
     <Content Include="images\output-onlinehextools.jpg" />
     <Content Include="Index.html" />
-    <Content Include="LootChallenge.html" />
-    <Content Include="scripts\Loot.js" />
     <Content Include="scripts\main.js" />
     <Content Include="scripts\prism.js" />
     <Content Include="Solve.html" />
